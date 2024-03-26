@@ -1,0 +1,23 @@
+{
+  "CREATED": {
+    "DEALER": "Complaint with ID: {complaintID} has been successfully created. Please await approval from the Area Sales Manager (ASM). We appreciate your patience and cooperation. Thank you!",
+    "ASM" : "A new complaint with ID: {complaintID} has been created and requires your attention. Please review and approve or reject it at your earliest convenience. Thank you for your prompt attention to this matter!"
+  },
+  "ASM_APPROVED": {
+    "DEALER": "Complaint with ID: {complaintID} has been approved by the Area Sales Manager (ASM). Please await collection by the logistic team. Thank you!",
+    "LOGISTIC": "Area Sales Manager (ASM) {asmName} has approved new complaints for collection. Please proceed to collect the complaints at your earliest convenience. Thank you!"
+  },
+  "ASM_REJECT": {
+    "DEALER": "Complaint with ID: {complaintID} has been rejected by the Area Sales Manager (ASM). Please contact the ASM for further details. Thank you!"
+  },
+  "LOGISTIC_COLLECTED": {
+    "DEALER": "Complaint with ID: {complaintID} has been collected by the logistic team. Please await technical inspection. Thank you!",
+    "TECHNICAL": "Logistic team has collected complaints for technical inspection. Please proceed to inspect the complaints at your earliest convenience. Thank you!"
+  },
+  "TECHNICAL_APPROVED": {
+    "DEALER": "Complaint with ID: {complaintID} has been approved by the technical team. Please await replacement by the logistic team. Thank you!"
+  },
+  "TECHNICAL_REJECTED": {
+    "DEALER": "Complaint with ID: {complaintID} has been rejected by the technical team. Please contact the technical team for further details. Thank you!"
+  }
+}
