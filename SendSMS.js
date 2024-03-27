@@ -12,7 +12,7 @@ async function SendSMS(data) {
 
   if(requestData.to[0] === "0") {
     requestData.to = "94" + requestData.to.slice(1);
-  } else if(requestData.to[0] !== "9" || requestData.to[1] !== "4"){
+  } else if(requestData.to.toString()[0] !== "9" && requestData.to.toString()[1] !== "4"){
     requestData.to =  "94" + requestData.to;
   }
 
