@@ -1,6 +1,6 @@
 # SendSMS Plugin
 
-The SendSMS plugin is a Node.js module designed to simplify the process of sending SMS messages using the Notify.lk API. This plugin handles the authentication and HTTP request to the Notify.lk API, allowing you to easily integrate SMS functionality into your Node.js applications.
+The SendSMS plugin is a Node.js module designed to simplify the process of sending SMS messages using any SMS sending API. This plugin handles the authentication and HTTP request to the SMS sending API, allowing you to easily integrate SMS functionality into your Node.js applications.
 
 ## Installation
 
@@ -29,9 +29,9 @@ SendSMS(data)
 
 Make sure to set the following environment variables in your application before using the SendSMS plugin:
 
-USER_ID: Your Notify.lk user ID.
-API_KEY: Your Notify.lk API key.
-SENDER_ID: Your Notify.lk sender ID.
+USER_ID: Your user ID.
+API_KEY: Your API key.
+SENDER_ID: Your sender ID.
 
 You can copy and paste this content into a file named `README.md` in your GitHub repository.
 
