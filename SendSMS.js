@@ -17,7 +17,7 @@ async function SendSMS(data) {
   }
 
   let result = await axios
-    .post("https://app.notify.lk/api/v1/send", requestData)
+    .post(process.env.API, requestData)
     .then((response) => {
       // console.log("Response:", response.data);
       debug("Response:", response.data);
